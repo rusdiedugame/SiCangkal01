@@ -1,0 +1,22 @@
+{
+  "name": "asisten-belajar-pintar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chatbot pembelajaran SMP berbasis materi guru dengan pencarian lokal dan AI opsional",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cookie-parser": "^1.4.7",
+    "docx": "^9.1.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "mammoth": "^1.9.0",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1",
+    "pptxgenjs": "^3.12.0",
+    "adm-zip": "^0.5.16",
+    "dotenv": "^16.4.7",
+    "bcryptjs": "^2.4.3"
+  }
+}
